@@ -1,0 +1,120 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background-image: url(file:///C:/Users/DELL/Downloads/etno%20part2/Image/G04-Background2.png);
+    background-size: auto;
+    flex-wrap:wrap;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.login {
+    width: 350px;
+    color: #252b5f;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 15px 15px rgb(0, 0, 0, 0.1);
+
+}
+
+form {
+     width: 250px;
+     margin: 60px auto;
+}
+
+h1 {
+    margin: 2px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+hr {
+    border-top:2px solid #252b5f;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+.right img {
+    width: 450px;
+    height: auto;
+    border-top-right-radius: 15px;
+    margin-top: -100px;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    border: none;
+    outline:none;
+    padding: 8px;
+    width:252px;
+    color: #fff;
+    font-size: 16px;
+    cursor:pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #252b5f;
+
+}
+
+button:hover {
+    background: #5c6085;
+}
+
+@media (max-width: 880px) {
+    .container {
+        width: 100%;
+        max-width: 750px;
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+    form {
+        width: 300px;
+        margin: 20px auto;
+
+    }
+
+    .login {
+        width: 400px;
+        padding:20px;
+    }
+} 
+    

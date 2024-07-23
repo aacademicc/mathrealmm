@@ -1,0 +1,420 @@
+*,html,body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans';
+    scroll-behavior: smooth;
+    size: auto;
+}
+
+header {
+    background:#25346A;
+    color:#eaeaea;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    z-index: 1;
+    background-size: auto;
+    box-shadow: #333746;
+    width: auto;
+}
+
+.logo {
+    margin-right:auto;
+    margin-top: -15px;
+    display: flex;
+    gap:6px;
+    font-size: 15px;
+    align-items: center;
+    
+
+}
+.img-logo {
+    width: 44px;
+    height:44px;
+    margin-left: 10px;
+}
+.logo-title{
+    cursor:pointer;
+    transition: all .5s ease 0s;
+}
+
+.logo:hover {
+    color: #bf5a41;
+}
+
+nav {
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+nav ul {
+    display:flex;
+    padding:20px;
+    
+}
+li {
+    list-style-type: none;
+    padding:15px;
+    display:line-block;
+    margin-top: -10px;
+}
+
+li a {
+    transition: all .5s ease 0s;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+li a:hover {
+    color:bisque;
+}
+
+a {
+    color:#eaeaea;
+    text-decoration:none;
+}
+
+.containerTC {
+    max-width: fit-content;
+    margin:auto;
+    padding: 70px 0;
+    background-size: auto;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.challenge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    color: #000000;
+    margin-top: -30px;
+    text-align: center;
+}
+
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #eaeaea;
+    text-shadow: 2px 2px 2px #333746;
+}
+
+.descriptionTC {
+    font-size: 17px;
+    text-align: left;
+    color: black;
+    margin-right: auto;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.joglo {
+    width: 540px;
+    margin-left: 50px;
+}
+
+.imgCC {
+    width:360px;
+    height: 15%;
+    margin-top: -10px;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.grafik1 {
+    width:400px;
+    height:auto;
+    margin-top: 0;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+}
+
+.grafik2 {
+    width:400px;
+    height:auto;
+    margin-top: 0;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.video {
+    width: 600px;
+    height: auto;
+    justify-content: center;
+    padding: 50px;
+    margin-top: -20px;
+}
+
+.grafiks {
+    width:600px;
+    height:auto;
+    margin-top: -50px;
+    margin-right: auto;
+    padding: 50px;
+    shape-outside: 2px 2px 2px rgb(104, 103, 103);
+}
+.imggg {
+    width: 400px;
+}
+
+.candi {
+    width:500px;
+    height:auto;
+    margin-top: -30px;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.descriptionUU {
+    margin-top: -10px;
+    font-size: 17px;
+    text-align: left;
+    color: black;
+    margin-right: auto;
+    margin-left: 50px;
+    text-align: justify;
+}
+.psukuh {
+    width:300px;
+    height:auto;
+    margin-top: 10px;
+    margin-left:50px;
+    padding: 0px;
+}
+.delman {
+    width: 350px;
+    margin-left: 50px;
+}
+.dua {
+    width: 350px;
+    margin-left: -10px;
+    margin-top:20px;
+}
+
+.sejajar {
+    width: 350px;
+    margin-left: 40px;
+}
+.lurus {
+    width: 350px;
+    margin-left: -10px;
+}
+
+.orang {
+    width: 400px;
+}
+
+.MA {
+    width:500px;
+    height:auto;
+    margin-top: -30px;
+    margin-right: auto;
+    padding: 45px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MAAA {
+    margin-top: -10px;
+    margin-right: 80px;
+    text-align: justify;
+}
+.GR2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.GR1 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.TCCC {
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+            align-items: center;
+            margin-left:0px;
+            width: 350px;
+            height: 25%; 
+            margin-top: 70px;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .joglo {
+    width: 240px;
+    margin-left: 50px;}
+    .challenge {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        color: #000000;
+        margin-top: -30px;
+        text-align: center;
+        margin-left: -20px;
+    }
+    .imgCC {
+        width:360px;
+        height: 15%;
+        margin-top: -10px;
+        margin-right: auto;
+        padding: 20px;
+        margin-left: -30px;
+    }
+    .Prasyarat {
+        margin-left: -50px;
+    }
+    .grafik1 {
+        width:350px;
+        height:auto;
+        margin-top: 0;
+        margin-right: auto;
+        padding: 20px;
+        display: flex;
+    }
+
+    .candi {
+        width:250px;
+        height:auto;
+        margin-top: -30px;
+        margin-right: auto;
+        padding: 50px;
+    }
+
+    .GR2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .sejajar {
+        width: 300px;
+        margin-left: 40px;
+    }
+    .grafik2 {
+        width:300px;
+        height:auto;
+        margin-top: 0;
+        margin-right: auto;
+        padding: 20px;
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .logo {
+        justify-content: center;
+        align-content: center;
+    }
+
+    .img-logo {
+        margin-top: 25px;    }
+    .title-logo {
+        margin-top: 25px;
+    }
+    .video {
+        width: 350px;
+    }
+    .grafiks {
+        width:350px;
+        height:auto;
+        margin-top: -50px;
+        margin-right: auto;
+        padding: 50px;
+        shape-outside: 2px 2px 2px rgb(104, 103, 103);
+    }
+    .imggg {
+        width: 300px;
+        margin-left: -20px;
+    }
+
+    .descriptionUU {
+        margin-top: -10px;
+        font-size: 17px;
+        text-align: left;
+        color: black;
+        margin-right: 50px;
+        margin-left: 50px;
+        text-align: justify;
+    }
+    .psukuh {
+        width:250px;
+        height:auto;
+        margin-top: 10px;
+        margin-left:50px;
+        padding: 0px;
+    }
+
+    .delman {
+        width: 250px;
+        margin-left: 50px;
+    }
+    .dua {
+        width: 300px;
+        margin-left: -10px;
+        margin-top:20px;
+    }
+    .orang {
+        width: 300px;
+    }
+
+    .MA {
+        width:350PX;
+        height:auto;
+        margin-top: -30px;
+        margin-right: auto;
+        padding: 45px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .MAAA {
+        margin-top: -10px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+   
+    .TCCC {
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+                align-items: center;
+                margin-left:0px;
+                width: 350px;
+                height: 25%; 
+                margin-top: 70px;
+    }
+    
+    .lurus {
+        width: 300px;
+        margin-left: -10px;
+    }
+
+    .GR1 {
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    .descriptionTC {
+        font-size: 17px;
+        text-align: left;
+        color: black;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: justify;
+    }
+    
+}
